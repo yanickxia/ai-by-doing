@@ -10,7 +10,10 @@ gensim == 4.3.2
 hdbscan == 0.8.33
 graphviz == 0.20.1
 mlxtend == 0.23.0
-tensorflow == 2.14.0
+tensorflow[and-cuda] == 2.14.0
 nltk == 3.8.1
 flair == 0.13.0
 onnx == 1.15.0
+transformers == 4.42.4
+torch == 2.1.2
+torchvision == 0.16.2
